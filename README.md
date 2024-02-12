@@ -1,5 +1,6 @@
 # Assignment 3 of WEB Technogies 2 (Backend) course
 Installation
+
 Install dependencies npm i
 Run the server usign dev script npm run dev
 Used nodemon app.js
