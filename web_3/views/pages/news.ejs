@@ -7,15 +7,15 @@
 
     <%- include('../components/head.ejs') %>
 </head>
-<body class="bg-light vh-100">
+<body class="bg-dark vh-100">
 
     <%- include('../components/navbar.ejs') %>
 
     <style>
         body {
             font-family: "Helvetica", Arial, sans-serif;
-            color: #000000; /* Change text color to white */
-            background-color: #dcd9d9; /* Set background color to #222 */
+            color: #ffffff; /* Change text color to white */
+            background-color: #222; /* Set background color to #222 */
         }
 
         body input[type="text"],
@@ -31,22 +31,40 @@
             color: #656565;
         }
 
-        
-
-        body .card0,
-        body .card2 {
-            background-color: #ffeded;
-            color: #000000;
+        .news-item {
+            background-color: #000000;
+            color: #fffbfb;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
         }
 
-        body .line {
-            background-color: #ffffff;
+        .news-item img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
         }
 
-        body .light-text {
-            color: #1d1212;
+        .news-content {
+            font-size: 1.1rem;
         }
+
+        .news-content h2 {
+            margin-bottom: 10px;
+        }
+
+        .btn-primary {
+            background-color: #5c0054;
+            border-color: #5c0054;
+        }
+
+        .btn-primary:hover {
+            background-color: #990872;
+            border-color: #990872;
+        }
+
     </style>
+
 
     <div class="container">
         <div class="fs-1 fw-semibold my-3">The Weather News</div>
